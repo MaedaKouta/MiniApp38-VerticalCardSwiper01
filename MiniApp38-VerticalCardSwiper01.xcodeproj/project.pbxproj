@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DA99EDFD0B61F10764A9E0D /* Pods_MiniApp38_VerticalCardSwiper01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9B3462329BFE45D8580324 /* Pods_MiniApp38_VerticalCardSwiper01.framework */; };
 		87599B2C27FFEDDA00886C40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87599B2B27FFEDDA00886C40 /* AppDelegate.swift */; };
 		87599B2E27FFEDDA00886C40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87599B2D27FFEDDA00886C40 /* SceneDelegate.swift */; };
 		87599B3027FFEDDA00886C40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87599B2F27FFEDDA00886C40 /* ViewController.swift */; };
 		87599B3327FFEDDA00886C40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87599B3127FFEDDA00886C40 /* Main.storyboard */; };
 		87599B3527FFEDDB00886C40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87599B3427FFEDDB00886C40 /* Assets.xcassets */; };
 		87599B3827FFEDDB00886C40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87599B3627FFEDDB00886C40 /* LaunchScreen.storyboard */; };
+		87E2CA9E27FFF05400BD269A /* CardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E2CA9C27FFF05400BD269A /* CardViewCell.swift */; };
+		87E2CA9F27FFF05400BD269A /* CardViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E2CA9D27FFF05400BD269A /* CardViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		643ED86CFDCC60F95D5B7810 /* Pods-MiniApp38-VerticalCardSwiper01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniApp38-VerticalCardSwiper01.release.xcconfig"; path = "Target Support Files/Pods-MiniApp38-VerticalCardSwiper01/Pods-MiniApp38-VerticalCardSwiper01.release.xcconfig"; sourceTree = "<group>"; };
 		87599B2827FFEDDA00886C40 /* MiniApp38-VerticalCardSwiper01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MiniApp38-VerticalCardSwiper01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87599B2B27FFEDDA00886C40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87599B2D27FFEDDA00886C40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,10 @@
 		87599B3427FFEDDB00886C40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87599B3727FFEDDB00886C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87599B3927FFEDDB00886C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87E2CA9C27FFF05400BD269A /* CardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewCell.swift; sourceTree = "<group>"; };
+		87E2CA9D27FFF05400BD269A /* CardViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewCell.xib; sourceTree = "<group>"; };
+		9D9B3462329BFE45D8580324 /* Pods_MiniApp38_VerticalCardSwiper01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniApp38_VerticalCardSwiper01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F3976BE22E449658945948 /* Pods-MiniApp38-VerticalCardSwiper01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniApp38-VerticalCardSwiper01.debug.xcconfig"; path = "Target Support Files/Pods-MiniApp38-VerticalCardSwiper01/Pods-MiniApp38-VerticalCardSwiper01.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA99EDFD0B61F10764A9E0D /* Pods_MiniApp38_VerticalCardSwiper01.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FA5A09217F3CC1FAFAA2031 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D9B3462329BFE45D8580324 /* Pods_MiniApp38_VerticalCardSwiper01.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		87599B1F27FFEDDA00886C40 = {
 			isa = PBXGroup;
 			children = (
 				87599B2A27FFEDDA00886C40 /* MiniApp38-VerticalCardSwiper01 */,
 				87599B2927FFEDDA00886C40 /* Products */,
+				F5112FA1359661828CCFFEEF /* Pods */,
+				6FA5A09217F3CC1FAFAA2031 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +82,19 @@
 				87599B3427FFEDDB00886C40 /* Assets.xcassets */,
 				87599B3627FFEDDB00886C40 /* LaunchScreen.storyboard */,
 				87599B3927FFEDDB00886C40 /* Info.plist */,
+				87E2CA9C27FFF05400BD269A /* CardViewCell.swift */,
+				87E2CA9D27FFF05400BD269A /* CardViewCell.xib */,
 			);
 			path = "MiniApp38-VerticalCardSwiper01";
+			sourceTree = "<group>";
+		};
+		F5112FA1359661828CCFFEEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0F3976BE22E449658945948 /* Pods-MiniApp38-VerticalCardSwiper01.debug.xcconfig */,
+				643ED86CFDCC60F95D5B7810 /* Pods-MiniApp38-VerticalCardSwiper01.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87599B3C27FFEDDB00886C40 /* Build configuration list for PBXNativeTarget "MiniApp38-VerticalCardSwiper01" */;
 			buildPhases = (
+				92FF511BF54A10AF62916232 /* [CP] Check Pods Manifest.lock */,
 				87599B2427FFEDDA00886C40 /* Sources */,
 				87599B2527FFEDDA00886C40 /* Frameworks */,
 				87599B2627FFEDDA00886C40 /* Resources */,
+				0E554F405AEA7064C9E458BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +159,54 @@
 			files = (
 				87599B3827FFEDDB00886C40 /* LaunchScreen.storyboard in Resources */,
 				87599B3527FFEDDB00886C40 /* Assets.xcassets in Resources */,
+				87E2CA9F27FFF05400BD269A /* CardViewCell.xib in Resources */,
 				87599B3327FFEDDA00886C40 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E554F405AEA7064C9E458BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniApp38-VerticalCardSwiper01/Pods-MiniApp38-VerticalCardSwiper01-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniApp38-VerticalCardSwiper01/Pods-MiniApp38-VerticalCardSwiper01-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniApp38-VerticalCardSwiper01/Pods-MiniApp38-VerticalCardSwiper01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92FF511BF54A10AF62916232 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniApp38-VerticalCardSwiper01-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		87599B2427FFEDDA00886C40 /* Sources */ = {
@@ -140,6 +215,7 @@
 			files = (
 				87599B3027FFEDDA00886C40 /* ViewController.swift in Sources */,
 				87599B2C27FFEDDA00886C40 /* AppDelegate.swift in Sources */,
+				87E2CA9E27FFF05400BD269A /* CardViewCell.swift in Sources */,
 				87599B2E27FFEDDA00886C40 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +358,7 @@
 		};
 		87599B3D27FFEDDB00886C40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F3976BE22E449658945948 /* Pods-MiniApp38-VerticalCardSwiper01.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +387,7 @@
 		};
 		87599B3E27FFEDDB00886C40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 643ED86CFDCC60F95D5B7810 /* Pods-MiniApp38-VerticalCardSwiper01.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
